@@ -1,0 +1,51 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+header{
+    background-color: yellow;
+    height: 250px;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+
+header >p{
+    color: red;
+    font-style: italic;
+    
+}
+
+main > ol >li{
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    background-color: blueviolet;
+}
+/* text align-center,justify,left,right */
+/* text transform-uppercase,captitalize(first word),lowercase */
+/* text decoration-underline*/
+section > h1{
+    background-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+/*spacing- text,word,text indent(space before first word)*/c dwv .
+
+
+
+3333333333333333333333333..
+section >p{
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 15PX;
+    text-indent: 150px;
+    line-height: 2;
+    text-shadow: -2px -2px 2px red;
+}
+
+article{
+    font-weight: bold;
+    background-color: aqua;
+}

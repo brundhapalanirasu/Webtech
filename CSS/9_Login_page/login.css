@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.outer>.inner{
+    /*border: 2px solid black; */
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px black;
+
+    width: 400px;
+    
+    background-color: white;
+    padding: 20px 40px;
+  
+
+}
+.inner >form >label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.inner >form >input{
+    display: block;
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none; 
+} 
+.inner >h1{
+    
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.inner>p{
+    font-size: 18px ;
+    margin-bottom: 10px;
+    letter-spacing:1.3px ;
+    font-style: italic;
+}
+
+.inner>form >button{
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.inner >form >button:hover{
+    background-color:rgb(210, 30, 201);
+}
+.inner>form>button:active{
+    background-color: red;
+}
+
+.inner>.footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.inner>.footer>p{
+    
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+
+}
+.inner>.footer>a{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+input::placeholder{
+    font-size: 18px;
+}
+input:focus{
+    border: 2px solid blue;
+}

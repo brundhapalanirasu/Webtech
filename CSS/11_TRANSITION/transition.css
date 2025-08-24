@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background: linear-gradient(black,rgb(239, 239, 104),purple);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.outer > .inner{
+   
+    height: 200px;
+    width: 150px;
+    background-color: red;
+    transition: all 2s ease-in 2s;
+
+
+}
+.inner:hover{
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/* transition property: all
+  transition duration:2s
+  transition timing function:ease-in
+  transition delay:2s

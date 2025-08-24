@@ -1,0 +1,23 @@
+header >button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*to change color after keeping the curser -hover */
+header > button:hover{
+    background-color: yellow;
+    color: blue;
+}
+/* to change color of button after click -active */
+header >button:active{
+    background-color:aqua;
+}
+/* to target even-(2n), odd-(2n+1) */
+section >ol >li:nth-child(2n+1){
+    color: blue;
+    font-weight: bold;
+}
+section >ol{
+    font-size: 30px;
+}

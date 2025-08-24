@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(0, 255, 157, 0.233);
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+nav>h1{
+    margin-right: 20%;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 30px;
+    list-style-type:none;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20%;
+
+}
+.user>button{
+    align-items:flex-end;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.user #login{
+        background-color: red;
+        color: white; 
+           
+}
+.user >#login:hover{
+    background-color:gold;
+    color: black;
+}
+.user>#signup:hover{
+    
+     background-color:gold;
+    color: black;
+}
+
+.user #signup{
+    background-color: green;
+    color: white;
+    
+}

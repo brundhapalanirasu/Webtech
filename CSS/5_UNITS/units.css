@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70vh;
+    width: 80%;
+    background-color:aqua;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border: 3px solid black;
+}
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid green;
+
+    height: 50%;
+    width: 60%;
+}

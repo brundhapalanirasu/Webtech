@@ -1,0 +1,40 @@
+.nav
+{
+    background-color: yellow;
+}
+
+.outer
+{
+    background-color: skyblue;
+    height: 600px;
+    width: 800px;
+    text-align:center;
+    
+}
+
+.inner{
+    background-color: white;
+    height: 200px;
+    width:400px ;
+} 
+
+.inner2{
+    background-color: white;
+    height: 300px;
+    width:500px ;
+} 
+
+/*direct select selector */
+.outer h3{
+    color: white;
+}
+ 
+#logo
+{
+    color: red;
+}
+
+ /*descendent selector */
+.outer h3{
+    background-color: purple; 
+}

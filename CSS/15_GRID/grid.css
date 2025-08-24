@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: grid;
+     
+    grid-template-columns: 200px 250px 200px;
+    grid-auto-rows: 100px;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.box{
+    border: 2px solid ;
+    padding: 10px;
+}
+.outer > #box1{
+    grid-column: span 3;
+}
+
+.outer > #box2{
+    grid-row: span 2;
+    background-image: url("https://thumbs.dreamstime.com/b/mountain-river-forest-north-cascades-national-park-washington-usa-73004270.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 150px;
+    transition: all 2s ease-in;
+   
+}
+
+#box2:hover{
+    background-position: center;
+
+}
+.outer >#box3{
+    grid-column: span 2;
+    
+}
+
+.outer >#box8{
+    grid-row: span 2;
+}
+

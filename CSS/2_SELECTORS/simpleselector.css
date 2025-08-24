@@ -1,0 +1,27 @@
+/* tagname selector */
+nav{
+    background-color: yellow;
+}
+
+ /* id selector */
+#logo
+{
+    color: blue;
+}
+#main{
+    background-color: aqua;
+}
+.para{
+    background-color: violet;
+    color: white;
+
+}
+/* universal selector */
+
+*{
+    font-style:italic;  
+}
+ /*group selector */
+h3,h3,#para1{
+    background-color: aqua;
+}

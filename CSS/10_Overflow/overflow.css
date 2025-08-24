@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to left,violet,pink,bisque) ;
+   
+}
+.outer >.inner{
+    /*border: 2px solid black;*/
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 40px;
+    overflow: scroll;
+    box-shadow: 2px 4px 6px black;
+}
+.inner > h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+
+
+}
+.inner > p{
+    font-size: 15px;
+    justify-content: ;
+}
+
+
+::-webkit-scrollbar{
+display: none;
+}
