@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <h1>Student Form</h1>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <legend>student form</legend>
+        <label for="sn">student name:</label>
+        <input type="text" placeholder="Enter your name" id="sn"required ><br><br>
+
+         <label for="age">age:</label>
+        <input type="number" placeholder="Enter your age" id="age"><br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob"> <br><br>
+        
+        <label for="em">email id:</label>
+        <input type="email" placeholder="Enter your email" id="em" value="brubrundha19@gmail.com" readonly><br><br>
+
+        <label for="ph">Mobile Number:</label>
+        <input type="tel" placeholder="Phone number" id="ph" required maxlength="10"><br><br>
+
+        <label for="add">Address:</label> <br>
+        <textarea name="" id="add" rows="5" cols="40" placeholder="Enter your address"></textarea><br><br>
+
+        <label for="pass">password:</label>
+        <input type="password" placeholder="Enter the password" id="pass" minlength="5"><br><br>
+
+        
+        <label for="">Subjects</label> <br><br>
+
+        <input type="checkbox" id="sub1" value="html">
+        <label for="sub1">HTML</label>
+
+         <input type="checkbox" id="sub2" value="css">
+        <label for="sub2">CSS</label>
+
+         <input type="checkbox" id="sub3" value="Js">
+        <label for="sub3">JS</label> <br><br>
+           
+        <label for="">Gender</label> <br><br>
+
+        <input type="radio" id="ma" name="Gender" value="male">
+        <label for="ma">Male</label> 
+
+         <input type="radio" id="fm" name="Gender" value="female" >
+        <label for="fm">Female</label>
+
+         <input type="radio" id="ot" name="Gender" value="others">
+        <label for="ot">Other</label><br><br>
+
+        <label for="">Select the course</label>
+        <select name="COURSE" id="">
+            <option value="JAVA">JAVA FULLSTACK</option>
+            <option value="PYTHON">PYTHON FULLSTACK</option>
+            <option value="POWER bI">POWER BI</option>
+        </select> <br><br>
+
+        <label for="sal">Expected salary</label>
+        <input type="range" name="salary" id="sal" min="1000" max="10000">
+        <BR></BR>
+
+         <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
